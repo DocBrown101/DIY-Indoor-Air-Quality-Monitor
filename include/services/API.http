@@ -1,0 +1,30 @@
+// ESP8266
+GET http://localhost:32768/esp-update/air-quality
+User-Agent: ESP8266-http-Update
+x-ESP8266-version: 2023-12-26
+###
+
+GET http://192.168.0.220:5678/esp-update/air-quality
+User-Agent: ESP8266-http-Update
+x-ESP8266-version: 2023-12-26
+###
+
+// ESP32
+GET http://localhost:32768/esp-update/air-quality
+User-Agent: ESP32-http-Update
+x-ESP32-version: 1244
+###
+
+GET http://192.168.0.220:5678/esp-update/air-quality
+User-Agent: ESP32-http-Update
+x-ESP32-version: 1244
+###
+
+// example
+POST https://example.com/comments HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
