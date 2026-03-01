@@ -63,7 +63,3 @@ pio run -e ESP8266-nodemcuv2 -t upload
 ```bash
 pio device monitor --baud 115200
 ```
-
-## License
-
-MIT
